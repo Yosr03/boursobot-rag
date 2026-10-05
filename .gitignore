@@ -1,0 +1,35 @@
+# Bases et données locales
+chroma_db/
+app_data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.bak
+*.jsonl
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Frontend
+node_modules/
+dist/
+
+# Modèles téléchargés
+models/
+*.safetensors
+*.gguf
+
+scraping/boursobank_corpus_raw.csv
+scraping/boursobank_url_inventory.csv
+
+scraping/*.ipynb

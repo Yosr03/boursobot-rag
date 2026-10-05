@@ -1,0 +1,10 @@
+{
+  "description": "Engage in seamless conversations with an AI chatbot designed for users seeking quick assistance, insights, and personalized interactions in a modern interface.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
